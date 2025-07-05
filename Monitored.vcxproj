@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{992d8173-e7ca-4fdb-9653-227655057485}</ProjectGuid>
+    <RootNamespace>Monitored</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\game.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\data\gameProperties.h" />
+    <ClInclude Include="src\game.h" />
+    <ClInclude Include="src\utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\assets\logo.png" />
+    <Image Include="src\assets\TitleFrames\0001.jpg" />
+    <Image Include="src\assets\TitleFrames\0002.jpg" />
+    <Image Include="src\assets\TitleFrames\0003.jpg" />
+    <Image Include="src\assets\TitleFrames\0004.jpg" />
+    <Image Include="src\assets\TitleFrames\0005.jpg" />
+    <Image Include="src\assets\TitleFrames\0006.jpg" />
+    <Image Include="src\assets\TitleFrames\0007.jpg" />
+    <Image Include="src\assets\TitleFrames\0008.jpg" />
+    <Image Include="src\assets\TitleFrames\0009.jpg" />
+    <Image Include="src\assets\TitleFrames\0010.jpg" />
+    <Image Include="src\assets\TitleFrames\0011.jpg" />
+    <Image Include="src\assets\TitleFrames\0012.jpg" />
+    <Image Include="src\assets\TitleFrames\0013.jpg" />
+    <Image Include="src\assets\TitleFrames\0014.jpg" />
+    <Image Include="src\assets\TitleFrames\0015.jpg" />
+    <Image Include="src\assets\TitleFrames\0016.jpg" />
+    <Image Include="src\assets\TitleFrames\0017.jpg" />
+    <Image Include="src\assets\TitleFrames\0018.jpg" />
+    <Image Include="src\assets\TitleFrames\0019.jpg" />
+    <Image Include="src\assets\TitleFrames\0020.jpg" />
+    <Image Include="src\assets\TitleFrames\0021.jpg" />
+    <Image Include="src\assets\TitleFrames\0022.jpg" />
+    <Image Include="src\assets\TitleFrames\0023.jpg" />
+    <Image Include="src\assets\TitleFrames\0024.jpg" />
+    <Image Include="src\assets\TitleFrames\0025.jpg" />
+    <Image Include="src\assets\TitleFrames\0026.jpg" />
+    <Image Include="src\assets\TitleFrames\0027.jpg" />
+    <Image Include="src\assets\TitleFrames\0028.jpg" />
+    <Image Include="src\assets\TitleFrames\0029.jpg" />
+    <Image Include="src\assets\TitleFrames\0030.jpg" />
+    <Image Include="src\assets\TitleFrames\0031.jpg" />
+    <Image Include="src\assets\TitleFrames\0032.jpg" />
+    <Image Include="src\assets\TitleFrames\0033.jpg" />
+    <Image Include="src\assets\TitleFrames\0034.jpg" />
+    <Image Include="src\assets\TitleFrames\0035.jpg" />
+    <Image Include="src\assets\TitleFrames\0036.jpg" />
+    <Image Include="src\assets\TitleFrames\0037.jpg" />
+    <Image Include="src\assets\TitleFrames\0038.jpg" />
+    <Image Include="src\assets\TitleFrames\0039.jpg" />
+    <Image Include="src\assets\TitleFrames\0040.jpg" />
+    <Image Include="src\assets\TitleFrames\0041.jpg" />
+    <Image Include="src\assets\TitleFrames\0042.jpg" />
+    <Image Include="src\assets\TitleFrames\0043.jpg" />
+    <Image Include="src\assets\TitleFrames\0044.jpg" />
+    <Image Include="src\assets\TitleFrames\0045.jpg" />
+    <Image Include="src\assets\TitleFrames\0046.jpg" />
+    <Image Include="src\assets\TitleFrames\0047.jpg" />
+    <Image Include="src\assets\TitleFrames\0048.jpg" />
+    <Image Include="src\assets\TitleFrames\0049.jpg" />
+    <Image Include="src\assets\TitleFrames\0050.jpg" />
+    <Image Include="src\assets\TitleFrames\0051.jpg" />
+    <Image Include="src\assets\TitleFrames\0052.jpg" />
+    <Image Include="src\assets\TitleFrames\0053.jpg" />
+    <Image Include="src\assets\TitleFrames\0054.jpg" />
+    <Image Include="src\assets\TitleFrames\0055.jpg" />
+    <Image Include="src\assets\TitleFrames\0056.jpg" />
+    <Image Include="src\assets\TitleFrames\0057.jpg" />
+    <Image Include="src\assets\TitleFrames\0058.jpg" />
+    <Image Include="src\assets\TitleFrames\0059.jpg" />
+    <Image Include="src\assets\TitleFrames\0060.jpg" />
+    <Image Include="src\assets\TitleFrames\0061.jpg" />
+    <Image Include="src\assets\TitleFrames\0062.jpg" />
+    <Image Include="src\assets\TitleFrames\0063.jpg" />
+    <Image Include="src\assets\TitleFrames\0064.jpg" />
+    <Image Include="src\assets\TitleFrames\0065.jpg" />
+    <Image Include="src\assets\TitleFrames\0066.jpg" />
+    <Image Include="src\assets\TitleFrames\0067.jpg" />
+    <Image Include="src\assets\TitleFrames\0068.jpg" />
+    <Image Include="src\assets\TitleFrames\0069.jpg" />
+    <Image Include="src\assets\TitleFrames\0070.jpg" />
+    <Image Include="src\assets\TitleFrames\0071.jpg" />
+    <Image Include="src\assets\TitleFrames\0072.jpg" />
+    <Image Include="src\assets\TitleFrames\0073.jpg" />
+    <Image Include="src\assets\TitleFrames\0074.jpg" />
+    <Image Include="src\assets\TitleFrames\0075.jpg" />
+    <Image Include="src\assets\TitleFrames\0076.jpg" />
+    <Image Include="src\assets\TitleFrames\0077.jpg" />
+    <Image Include="src\assets\TitleFrames\0078.jpg" />
+    <Image Include="src\assets\TitleFrames\0079.jpg" />
+    <Image Include="src\assets\TitleFrames\0080.jpg" />
+    <Image Include="src\assets\TitleFrames\0081.jpg" />
+    <Image Include="src\assets\TitleFrames\0082.jpg" />
+    <Image Include="src\assets\TitleFrames\0083.jpg" />
+    <Image Include="src\assets\TitleFrames\0084.jpg" />
+    <Image Include="src\assets\TitleFrames\0085.jpg" />
+    <Image Include="src\assets\TitleFrames\0086.jpg" />
+    <Image Include="src\assets\TitleFrames\0087.jpg" />
+    <Image Include="src\assets\TitleFrames\0088.jpg" />
+    <Image Include="src\assets\TitleFrames\0089.jpg" />
+    <Image Include="src\assets\TitleFrames\0090.jpg" />
+    <Image Include="src\assets\TitleFrames\0091.jpg" />
+    <Image Include="src\assets\TitleFrames\0092.jpg" />
+    <Image Include="src\assets\TitleFrames\0093.jpg" />
+    <Image Include="src\assets\TitleFrames\0094.jpg" />
+    <Image Include="src\assets\TitleFrames\0095.jpg" />
+    <Image Include="src\assets\TitleFrames\0096.jpg" />
+    <Image Include="src\assets\TitleFrames\0097.jpg" />
+    <Image Include="src\assets\TitleFrames\0098.jpg" />
+    <Image Include="src\assets\TitleFrames\0099.jpg" />
+    <Image Include="src\assets\TitleFrames\0100.jpg" />
+    <Image Include="src\assets\TitleFrames\0101.jpg" />
+    <Image Include="src\assets\TitleFrames\0102.jpg" />
+    <Image Include="src\assets\TitleFrames\0103.jpg" />
+    <Image Include="src\assets\TitleFrames\0104.jpg" />
+    <Image Include="src\assets\TitleFrames\0105.jpg" />
+    <Image Include="src\assets\TitleFrames\0106.jpg" />
+    <Image Include="src\assets\TitleFrames\0107.jpg" />
+    <Image Include="src\assets\TitleFrames\0108.jpg" />
+    <Image Include="src\assets\TitleFrames\0109.jpg" />
+    <Image Include="src\assets\TitleFrames\0110.jpg" />
+    <Image Include="src\assets\TitleFrames\0111.jpg" />
+    <Image Include="src\assets\TitleFrames\0112.jpg" />
+    <Image Include="src\assets\TitleFrames\0113.jpg" />
+    <Image Include="src\assets\TitleFrames\0114.jpg" />
+    <Image Include="src\assets\TitleFrames\0115.jpg" />
+    <Image Include="src\assets\TitleFrames\0116.jpg" />
+    <Image Include="src\assets\TitleFrames\0117.jpg" />
+    <Image Include="src\assets\TitleFrames\0118.jpg" />
+    <Image Include="src\assets\TitleFrames\0119.jpg" />
+    <Image Include="src\assets\TitleFrames\0120.jpg" />
+    <Image Include="src\assets\TitleFrames\0121.jpg" />
+    <Image Include="src\assets\TitleFrames\0122.jpg" />
+    <Image Include="src\assets\TitleFrames\0123.jpg" />
+    <Image Include="src\assets\TitleFrames\0124.jpg" />
+    <Image Include="src\assets\TitleFrames\0125.jpg" />
+    <Image Include="src\assets\TitleFrames\0126.jpg" />
+    <Image Include="src\assets\TitleFrames\0127.jpg" />
+    <Image Include="src\assets\TitleFrames\0128.jpg" />
+    <Image Include="src\assets\TitleFrames\0129.jpg" />
+    <Image Include="src\assets\TitleFrames\0130.jpg" />
+    <Image Include="src\assets\TitleFrames\0131.jpg" />
+    <Image Include="src\assets\TitleFrames\0132.jpg" />
+    <Image Include="src\assets\TitleFrames\0133.jpg" />
+    <Image Include="src\assets\TitleFrames\0134.jpg" />
+    <Image Include="src\assets\TitleFrames\0135.jpg" />
+    <Image Include="src\assets\TitleFrames\0136.jpg" />
+    <Image Include="src\assets\TitleFrames\0137.jpg" />
+    <Image Include="src\assets\TitleFrames\0138.jpg" />
+    <Image Include="src\assets\TitleFrames\0139.jpg" />
+    <Image Include="src\assets\TitleFrames\0140.jpg" />
+    <Image Include="src\assets\TitleFrames\0141.jpg" />
+    <Image Include="src\assets\TitleFrames\0142.jpg" />
+    <Image Include="src\assets\TitleFrames\0143.jpg" />
+    <Image Include="src\assets\TitleFrames\0144.jpg" />
+    <Image Include="src\assets\TitleFrames\0145.jpg" />
+    <Image Include="src\assets\TitleFrames\0146.jpg" />
+    <Image Include="src\assets\TitleFrames\0147.jpg" />
+    <Image Include="src\assets\TitleFrames\0148.jpg" />
+    <Image Include="src\assets\TitleFrames\0149.jpg" />
+    <Image Include="src\assets\TitleFrames\0150.jpg" />
+    <Image Include="src\assets\TitleFrames\0151.jpg" />
+    <Image Include="src\assets\TitleFrames\0152.jpg" />
+    <Image Include="src\assets\TitleFrames\0153.jpg" />
+    <Image Include="src\assets\TitleFrames\0154.jpg" />
+    <Image Include="src\assets\TitleFrames\0155.jpg" />
+    <Image Include="src\assets\TitleFrames\0156.jpg" />
+    <Image Include="src\assets\TitleFrames\0157.jpg" />
+    <Image Include="src\assets\TitleFrames\0158.jpg" />
+    <Image Include="src\assets\TitleFrames\0159.jpg" />
+    <Image Include="src\assets\TitleFrames\0160.jpg" />
+    <Image Include="src\assets\TitleFrames\0161.jpg" />
+    <Image Include="src\assets\TitleFrames\0162.jpg" />
+    <Image Include="src\assets\TitleFrames\0163.jpg" />
+    <Image Include="src\assets\TitleFrames\0164.jpg" />
+    <Image Include="src\assets\TitleFrames\0165.jpg" />
+    <Image Include="src\assets\TitleFrames\0166.jpg" />
+    <Image Include="src\assets\TitleFrames\0167.jpg" />
+    <Image Include="src\assets\TitleFrames\0168.jpg" />
+    <Image Include="src\assets\TitleFrames\0169.jpg" />
+    <Image Include="src\assets\TitleFrames\0170.jpg" />
+    <Image Include="src\assets\TitleFrames\0171.jpg" />
+    <Image Include="src\assets\TitleFrames\0172.jpg" />
+    <Image Include="src\assets\TitleFrames\0173.jpg" />
+    <Image Include="src\assets\TitleFrames\0174.jpg" />
+    <Image Include="src\assets\TitleFrames\0175.jpg" />
+    <Image Include="src\assets\TitleFrames\0176.jpg" />
+    <Image Include="src\assets\TitleFrames\0177.jpg" />
+    <Image Include="src\assets\TitleFrames\0178.jpg" />
+    <Image Include="src\assets\TitleFrames\0179.jpg" />
+    <Image Include="src\assets\TitleFrames\0180.jpg" />
+    <Image Include="src\assets\TitleFrames\0181.jpg" />
+    <Image Include="src\assets\TitleFrames\0182.jpg" />
+    <Image Include="src\assets\TitleFrames\0183.jpg" />
+    <Image Include="src\assets\TitleFrames\0184.jpg" />
+    <Image Include="src\assets\TitleFrames\0185.jpg" />
+    <Image Include="src\assets\TitleFrames\0186.jpg" />
+    <Image Include="src\assets\TitleFrames\0187.jpg" />
+    <Image Include="src\assets\TitleFrames\0188.jpg" />
+    <Image Include="src\assets\TitleFrames\0189.jpg" />
+    <Image Include="src\assets\TitleFrames\0190.jpg" />
+    <Image Include="src\assets\TitleFrames\0191.jpg" />
+    <Image Include="src\assets\TitleFrames\0192.jpg" />
+    <Image Include="src\assets\TitleFrames\0193.jpg" />
+    <Image Include="src\assets\TitleFrames\0194.jpg" />
+    <Image Include="src\assets\TitleFrames\0195.jpg" />
+    <Image Include="src\assets\TitleFrames\0196.jpg" />
+    <Image Include="src\assets\TitleFrames\0197.jpg" />
+    <Image Include="src\assets\TitleFrames\0198.jpg" />
+    <Image Include="src\assets\TitleFrames\0199.jpg" />
+    <Image Include="src\assets\TitleFrames\0200.jpg" />
+    <Image Include="src\assets\TitleFrames\0201.jpg" />
+    <Image Include="src\assets\TitleFrames\0202.jpg" />
+    <Image Include="src\assets\TitleFrames\0203.jpg" />
+    <Image Include="src\assets\TitleFrames\0204.jpg" />
+    <Image Include="src\assets\TitleFrames\0205.jpg" />
+    <Image Include="src\assets\TitleFrames\0206.jpg" />
+    <Image Include="src\assets\TitleFrames\0207.jpg" />
+    <Image Include="src\assets\TitleFrames\0208.jpg" />
+    <Image Include="src\assets\TitleFrames\0209.jpg" />
+    <Image Include="src\assets\TitleFrames\0210.jpg" />
+    <Image Include="src\assets\TitleFrames\0211.jpg" />
+    <Image Include="src\assets\TitleFrames\0212.jpg" />
+    <Image Include="src\assets\TitleFrames\0213.jpg" />
+    <Image Include="src\assets\TitleFrames\0214.jpg" />
+    <Image Include="src\assets\TitleFrames\0215.jpg" />
+    <Image Include="src\assets\TitleFrames\0216.jpg" />
+    <Image Include="src\assets\TitleFrames\0217.jpg" />
+    <Image Include="src\assets\TitleFrames\0218.jpg" />
+    <Image Include="src\assets\TitleFrames\0219.jpg" />
+    <Image Include="src\assets\TitleFrames\0220.jpg" />
+    <Image Include="src\assets\TitleFrames\0221.jpg" />
+    <Image Include="src\assets\TitleFrames\0222.jpg" />
+    <Image Include="src\assets\TitleFrames\0223.jpg" />
+    <Image Include="src\assets\TitleFrames\0224.jpg" />
+    <Image Include="src\assets\TitleFrames\0225.jpg" />
+    <Image Include="src\assets\TitleFrames\0226.jpg" />
+    <Image Include="src\assets\TitleFrames\0227.jpg" />
+    <Image Include="src\assets\TitleFrames\0228.jpg" />
+    <Image Include="src\assets\TitleFrames\0229.jpg" />
+    <Image Include="src\assets\TitleFrames\0230.jpg" />
+    <Image Include="src\assets\TitleFrames\0231.jpg" />
+    <Image Include="src\assets\TitleFrames\0232.jpg" />
+    <Image Include="src\assets\TitleFrames\0233.jpg" />
+    <Image Include="src\assets\TitleFrames\0234.jpg" />
+    <Image Include="src\assets\TitleFrames\0235.jpg" />
+    <Image Include="src\assets\TitleFrames\0236.jpg" />
+    <Image Include="src\assets\TitleFrames\0237.jpg" />
+    <Image Include="src\assets\TitleFrames\0238.jpg" />
+    <Image Include="src\assets\TitleFrames\0239.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\raylib.5.5.0\build\native\raylib.targets" Condition="Exists('packages\raylib.5.5.0\build\native\raylib.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\raylib.5.5.0\build\native\raylib.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\raylib.5.5.0\build\native\raylib.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\TitleFrames">
+      <UniqueIdentifier>{b77d7f88-0ac5-4d41-b9c2-6810bd612ad6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\gameProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\assets\logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0001.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0002.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0003.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0004.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0005.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0006.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0007.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0008.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0009.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0010.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0011.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0012.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0013.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0014.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0015.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0016.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0017.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0018.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0019.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0020.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0021.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0022.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0023.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0024.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0025.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0026.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0027.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0028.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0029.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0030.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0031.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0032.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0033.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0034.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0035.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0036.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0037.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0038.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0039.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0040.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0041.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0042.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0043.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0044.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0045.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0046.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0047.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0048.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0049.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0050.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0051.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0052.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0053.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0054.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0055.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0056.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0057.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0058.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0059.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0060.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0061.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0062.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0063.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0064.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0065.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0066.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0067.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0068.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0069.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0070.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0071.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0072.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0073.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0074.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0075.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0076.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0077.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0078.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0079.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0080.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0081.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0082.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0083.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0084.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0085.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0086.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0087.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0088.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0089.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0090.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0091.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0092.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0093.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0094.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0095.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0096.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0097.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0098.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0099.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0100.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0101.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0102.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0103.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0104.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0105.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0106.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0107.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0108.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0109.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0110.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0111.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0112.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0113.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0114.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0115.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0116.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0117.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0118.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0119.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0120.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0121.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0122.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0123.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0124.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0125.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0126.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0127.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0128.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0129.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0130.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0131.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0132.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0133.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0134.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0135.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0136.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0137.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0138.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0139.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0140.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0141.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0142.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0143.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0144.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0145.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0146.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0147.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0148.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0149.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0150.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0151.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0152.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0153.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0154.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0155.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0156.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0157.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0158.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0159.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0160.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0161.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0162.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0163.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0164.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0165.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0166.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0167.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0168.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0169.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0170.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0171.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0172.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0173.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0174.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0175.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0176.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0177.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0178.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0179.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0180.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0181.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0182.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0183.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0184.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0185.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0186.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0187.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0188.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0189.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0190.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0191.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0192.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0193.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0194.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0195.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0196.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0197.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0198.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0199.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0200.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0201.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0202.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0203.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0204.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0205.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0206.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0207.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0208.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0209.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0210.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0211.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0212.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0213.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0214.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0215.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0216.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0217.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0218.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0219.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0220.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0221.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0222.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0223.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0224.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0225.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0226.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0227.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0228.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0229.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0230.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0231.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0232.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0233.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0234.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0235.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0236.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0237.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0238.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+    <Image Include="src\assets\TitleFrames\0239.jpg">
+      <Filter>Resource Files\TitleFrames</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
