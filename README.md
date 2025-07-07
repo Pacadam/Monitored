@@ -1,17 +1,17 @@
 # MONITORED
 
 ## Gameplay loop
-FNAF-like game loop
-Multiple nights/shifts (M-OU une longue nuit en intervalle ex: 9pm-10pm, 10pm-11pm qui deviennent de plus en plus dure)(V-Connais pas The Pitt, mais des levels basés sur l’heure est bien aussi))
-Unknown entities will walk around the oil rig, preying
-Player will have to check systems, monster locations, to try to survive a mysterious wrath
+- FNAF-like game loop
+- Une longue nuit en intervalle (ex: 9pm-10pm, 10pm-11pm qui deviennent de plus en plus dure)
+- Unknown entities will walk around the oil rig, preying, new ones by time
+- Player will have to check systems, monster locations, to try to survive a mysterious wrath
 
 ## Core features
-Game is based on sound and visual cues (like a movement detector)
-Pc/tablet, Ui-looking ahh (Just a screen nigga) 
+- Game is based on sound and visual cues (like a movement detector)
+- Pc/tablet, Ui-looking ahh (Just a screen nigga) 
 
 
-## Objects 
+## Entities
 - [Takeover] - Very intelligent animatronic that learns from the triggers it activates.
 
 - [Embers] - A walking corpse on fire, produces no sound beside flickers of flames, sometimes trigger fire alarms.
