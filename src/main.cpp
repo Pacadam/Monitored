@@ -2,20 +2,18 @@
 #include "raylib.h"
 #include "game.h"//Game handler
 
-const int WIDTH = 800, HEIGHT = 600;
-
-int main(void){
+int main(){
     //All this will be changeable in the settings in the future
-    InitWindow(WIDTH, HEIGHT, "Monitored");
+    InitWindow(800, 600, "Monitored");
     SetTargetFPS(60);
 
-    GameHandler game = GameHandler();
+    auto game = GameHandler();
 
     while (!WindowShouldClose())
     {
         BeginDrawing();
-            ClearBackground(BLACK);
-            game.handleGameLoop();
+        ClearBackground(BLACK);
+        game.handleGameLoop();
         EndDrawing();
     }
 

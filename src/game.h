@@ -1,16 +1,26 @@
 #pragma once
+#include <raylib.h>
+#include <vector>
 
-enum GameState { MENU, PLAYING, GAMEOVER };//The game's current state
+enum GameState { STARTING, MENU, PLAYING, GAMEOVER };//The game's current state
 
 class GameHandler {
 public:
 	//Gameplay values will go here
-	int screenWidth = 50;
-	
-	GameState gameState;
 	GameHandler();
+
+	Vector2 mousePosition;
+	GameState gameState;
+	std::vector<Texture2D> videoFrames;
+	int frameCount;
+	float deltaTime;
 	void handleGameLoop();//TODO:
 private:
-	void setupMainMenu();
+	float gameDelta();
+	void displayDebug() const;
+	void displayMenu() const;
+	void displayStartingScene() const;
+	void playVideo();
+	void update();
 };
 
