@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://7htss1f7aekn"]
+
+[ext_resource type="Script" uid="uid://g8i7tce7qrdu" path="res://bootVideo.gd" id="2_7a8ye"]
+
+[sub_resource type="VideoStreamTheora" id="VideoStreamTheora_s2ta7"]
+file = "res://assets/boot_video.ogv"
+
+[node name="intro" type="Node2D" unique_id=1378799493]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1231183618]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="CanvasLayer" unique_id=875124970]
+offset_right = 1280.0
+offset_bottom = 720.0
+stream = SubResource("VideoStreamTheora_s2ta7")
+script = ExtResource("2_7a8ye")
