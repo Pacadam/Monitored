@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://7htss1f7aekn"]
-[ext_resource type="Script" uid="uid://g8i7tce7qrdu" path="res://bootVideo.gd" id="2_7a8ye"]
+
+[ext_resource type="Script" path="res://bootVideo.gd" id="2_7a8ye"]
 
 [sub_resource type="VideoStreamTheora" id="VideoStreamTheora_s2ta7"]
 file = "res://assets/boot_video.ogv"

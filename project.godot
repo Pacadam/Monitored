@@ -19,19 +19,11 @@ run/main_scene="uid://7htss1f7aekn"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
-<<<<<<< HEAD
-=======
-[autoload]
-
-DiscordRPCLoader="*uid://bvmc5hvvg67ed"
-
 [display]
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
 window/stretch/mode="canvas_items"
-
-[editor_plugins]
 
 [rendering]
 

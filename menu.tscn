@@ -1,41 +1,19 @@
 [gd_scene format=3 uid="uid://cueddj5frhnqa"]
 
-[sub_resource type="FontFile" id="FontFile_vsb4k"]
-cache/0/variation_coordinates = {}
-cache/0/face_index = 0
-cache/0/embolden = 0.0
-cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
-cache/0/spacing_top = 0
-cache/0/spacing_bottom = 0
-cache/0/spacing_space = 0
-cache/0/spacing_glyph = 0
-cache/0/baseline_offset = 0.0
-cache/0/16/0/ascent = 0.0
-cache/0/16/0/descent = 0.0
-cache/0/16/0/underline_position = 0.0
-cache/0/16/0/underline_thickness = 0.0
-cache/0/16/0/scale = 1.0
+[node name="Menu" type="Node2D" unique_id=1673262483]
 
-[node name="menu" type="Node2D" unique_id=84576603]
-
-[node name="BootScreen" type="Control" parent="." unique_id=983845434]
+[node name="BootScreen" type="Control" parent="." unique_id=882039735]
 layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
 
-[node name="Background" type="ColorRect" parent="BootScreen" unique_id=1922866966]
-layout_mode = 0
-color = Color(0, 0, 0, 1)
-
-[node name="Console" type="RichTextLabel" parent="BootScreen" unique_id=941292008]
+[node name="Background" type="ColorRect" parent="BootScreen" unique_id=1837688263]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
-theme_override_colors/default_color = Color(0.67481464, 0.67481464, 0.6748146, 1)
-theme_override_fonts/normal_font = SubResource("FontFile_vsb4k")
-bbcode_enabled = true
-scroll_following = true
-[node name="menu" type="Node2D" unique_id=84576603]
+
+[node name="Console" type="RichTextLabel" parent="BootScreen" unique_id=1031927382]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
