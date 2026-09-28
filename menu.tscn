@@ -38,3 +38,4 @@ theme_override_colors/default_color = Color(0.67481464, 0.67481464, 0.6748146, 1
 theme_override_fonts/normal_font = SubResource("FontFile_vsb4k")
 bbcode_enabled = true
 scroll_following = true
+[node name="menu" type="Node2D" unique_id=84576603]
